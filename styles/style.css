@@ -17,8 +17,6 @@
 }
 
 .logo_place_header {
-  width: 228px;
-  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -221,7 +219,7 @@
   padding: 90px 0;
   overflow: hidden;
   position: relative;
-  z-index: -2;
+  z-index: 0;
 }
 
 .section-title_theme_dark {
@@ -272,11 +270,6 @@
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
-}
-
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
 }
 
 .footer__author {
