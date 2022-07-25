@@ -10,14 +10,15 @@
   <body>
     <div class="page">
       <header class="header">
-        <a class="logo logo_place_header" href="">
-          <img
-            src="./images/logo_place_header.svg"
-            width="228"
-            height="32"
-            alt="Яндекс Практикум"
-          />
-        </a>
+        <!-- 
+          убрала ссылку, т.к. размеры картинки я могу указывать 
+          только в тегах из брифа, тег logo__img в брифе отсутствует 
+        -->
+        <img
+          class="logo logo_place_header"
+          src="./images/logo_place_header.svg"
+          alt="Яндекс Практикум"
+        />
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
@@ -184,14 +185,11 @@
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
-            <a class="logo logo_place_footer" href="">
-              <img
-                src="./images/logo_place_footer.svg"
-                width="228"
-                height="32"
-                alt="Яндекс Практикум"
-              />
-            </a>
+            <img
+              class="logo logo_place_footer"
+              src="./images/logo_place_footer.svg"
+              alt="Яндекс Практикум"
+            />
             <p class="footer__author">© Виктор Абанькин</p>
           </div>
           <div class="footer__column footer__column_content_info">
